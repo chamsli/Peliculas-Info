@@ -1,0 +1,35 @@
+@model List<proyectoAPI.Models.Person>
+
+@{
+    ViewData["Title"] = "Popular Actors";
+}
+
+<h1>🌟 Trending Actors</h1>
+
+<div class="actors-grid">
+    @foreach (var actor in Model)
+    {
+        <div class="actor-card">
+            <a href="/Home/ActorDetails/@actor.id">
+                <!-- Fixed image URL: added slash after w342 -->
+                <img src="https://image.tmdb.org/t/p/w342/@(actor.profile_path)" alt="@actor.name">
+                <h3>@actor.name</h3>
+                <p>
+                    Featured movie:
+                    @{
+                        var firstKnown = actor.known_for?.FirstOrDefault();
+                        if (firstKnown != null)
+                        {
+                            // Some known_for entries use "title" (movie) or "name" (TV show)
+                            @(firstKnown.title ?? firstKnown.name ?? "—")
+                        }
+                        else
+                        {
+                            @:—
+                        }
+                    }
+                </p>
+            </a>
+        </div>
+    }
+</div>

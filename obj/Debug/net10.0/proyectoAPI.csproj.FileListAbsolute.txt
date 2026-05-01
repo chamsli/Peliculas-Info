@@ -21,7 +21,6 @@ C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\rjsmcshtml.dswa.cache.
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\scopedcss\bundle\proyectoAPI.styles.css
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\scopedcss\projectbundle\proyectoAPI.bundle.scp.css
-C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\9w0ewsmt90-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\xe8vebaz25-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\l1agzozt86-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\kar74x6fnc-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -83,8 +82,6 @@ C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\3jrtpe0d1d-
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\l2lo1450dl-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\taixk8u8as-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\tko2toh7pc-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\7nsdkh0kd4-{0}-l7qj2otjle-l7qj2otjle.gz
-C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\ba5i3dbhzl-{0}-l7qj2otjle-l7qj2otjle.gz
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\staticwebassets.development.json
@@ -95,3 +92,10 @@ C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\refint\proyectoAPI.dll
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\proyectoAPI.pdb
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\proyectoAPI.genruntimeconfig.cache
 C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\ref\proyectoAPI.dll
+C:\Users\smart dell\Desktop\proyectoAPI\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\proyectoAPI.csproj.AssemblyReference.cache
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\proyectoAPI.sourcelink.json
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\proyecto.174291C6.Up2Date
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\7nsdkh0kd4-{0}-q0lcghpwuh-q0lcghpwuh.gz
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\ba5i3dbhzl-{0}-q0lcghpwuh-q0lcghpwuh.gz
+C:\Users\smart dell\Desktop\proyectoAPI\obj\Debug\net10.0\compressed\9w0ewsmt90-{0}-0l70jjdsb8-0l70jjdsb8.gz

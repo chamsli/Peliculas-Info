@@ -1,0 +1,71 @@
+@* @model proyectoAPI.Models.PersonDetails
+
+<h1>@Model.name</h1>
+
+<img src="@($"https://image.tmdb.org/t/p/w780{Model.profile_path}")" width="300">
+
+
+<p>
+    Born:
+    @Model.birthday
+</p>
+
+<p>
+    Place of Birth:
+    @Model.place_of_birth
+</p>
+
+<p>
+    Total Roles:
+    @Model.movie_credits.cast.Count
+</p>
+
+
+<h2>Biography</h2>
+
+<p>
+    @Model.biography
+</p>
+
+
+<h2>Most Famous Roles</h2>
+
+<ul>
+
+    @foreach (var film in
+        Model.movie_credits.cast
+        .OrderByDescending(x => x.popularity)
+        .Take(5))
+    {
+        <li>
+            @film.title
+        </li>
+    }
+
+</ul> *@
+
+@model proyectoAPI.Models.PersonDetails
+
+@{
+    ViewData["Title"] = Model.name;
+}
+
+<div class="actor-detail">
+    <img src="https://image.tmdb.org/t/p/w400@(Model.profile_path)" alt="@Model.name">
+    <div class="actor-info">
+        <h1>@Model.name</h1>
+        <p><strong>Born:</strong> @Model.birthday</p>
+        <p><strong>Place:</strong> @Model.place_of_birth</p>
+        <p><strong>Popularity:</strong> @Model.popularity</p>
+        <p class="bio">@Model.biography</p>
+
+        <h2>🎥 Selected filmography</h2>
+        <div class="film-list">
+            @foreach (var film in Model.movie_credits.cast.OrderByDescending(x => x.popularity).Take(8))
+            {
+                <div class="film-item">@film.title</div>
+            }
+        </div>
+        <a href="/Home/Actors" class="btn-back">← Back to actors</a>
+    </div>
+</div>
